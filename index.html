@@ -2,28 +2,16 @@
 <html>
 
 <head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
-  <!-- Import vega-embed -->
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
-  <!-- CSS file -->
-  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
-
+  <title>Index page</title>
 
 </head>
 
 <body>
 
-  <div id="choropleth_map"></div>
-
-  <script type="text/javascript">
-    var spec2 = "js/Choropleth_map.vl.json";
-    vegaEmbed('#choropleth_map', spec2).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-  </script>
+  <h3>Existing Codes:</h3>
+  <br>
+  <a href="choropleth_map">1. Choropleth Map (Brazil diffuse)</a>
+  <br>
 
 </body>
 
