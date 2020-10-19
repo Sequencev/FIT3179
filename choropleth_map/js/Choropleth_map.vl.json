@@ -4,7 +4,7 @@
   "width": 800,
   "height": 600,
   "data": {
-    "url": "https://raw.githubusercontent.com/Sequencev/FIT3179/master/js/gadm36_BRA_1.json",
+    "url": "https://raw.githubusercontent.com/Sequencev/FIT3179/master/choropleth_map/js/gadm36_BRA_1.json",
     "format": {"type": "topojson", "feature": "gadm36_BRA_1"}
   },
   "mark": {"type": "geoshape"},
@@ -14,7 +14,7 @@
       "lookup": "properties.NAME_1",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/Sequencev/FIT3179/master/data/direct_normal_average.csv"
+          "url": "https://raw.githubusercontent.com/Sequencev/FIT3179/master/choropleth_map/data/direct_normal_average.csv"
         },
         "key": "STATE",
         "fields": ["ANNUAL"]
