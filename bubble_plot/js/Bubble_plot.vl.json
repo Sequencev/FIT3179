@@ -1,0 +1,102 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 800,
+  "height": 600,
+  "title": "Title",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Sequencev/FIT3179/master/bubble_plot/data/diffuse_par_mean.csv"
+  },
+  "params": [
+    {
+      "name": "Rregion_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Mid West",
+          "North",
+          "Northeast",
+          "South",
+          "Southeast"
+        ],
+        "labels": [
+          "Show All",
+          "Mid West",
+          "North",
+          "Northeast",
+          "South",
+          "Southeast"
+        ],
+        "name": "Region Selection: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "Rregion_selection == null || datum.REGION == Rregion_selection"}
+  ],
+  "encoding": {
+    "x": {
+      "field": "PAR",
+      "type": "quantitative",
+      "title": "Par_mean",
+      "scale": {"domain": [1700, 2600]}
+    },
+    "y": {
+      "field": "DIFFUSE",
+      "type": "quantitative",
+      "title": "Diffuse_mean",
+      "scale": {"domain": [1600, 2500]}
+    }
+  },
+  "layer": [
+    {
+      "mark": "point",
+      "encoding": {
+        "color": {
+          "field": "REGION",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Mid West", "North", "Northeast", "South", "Southeast"],
+            "range": ["#e41a1c", "#984ea3", "#ff7f00", "#a6cee3", "#377eb8"]
+          }
+        },
+        "tooltip": [
+          {"field": "NAME", "type": "nominal"},
+          {"field": "STATE", "type": "nominal"},
+          {"field": "REGION", "type": "nominal"},
+          {"field": "DIFFUSE", "type": "quantitative", "format": ".2f"},
+          {"field": "PAR", "type": "quantitative", "format": ".2f"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "NAME", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['NAME'] == 'Garuva' || datum['NAME'] == 'Barra do Quaraí' || datum['NAME'] == 'Brasil Novo' || datum['NAME'] == 'Ibotirama'",
+            "value": 1
+          },
+          "value": 0
+        },
+        "tooltip": [
+          {"field": "NAME", "type": "nominal"},
+          {"field": "STATE", "type": "nominal"},
+          {"field": "REGION", "type": "nominal"},
+          {"field": "DIFFUSE", "type": "quantitative", "format": ".2f"},
+          {"field": "PAR", "type": "quantitative", "format": ".2f"}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}
