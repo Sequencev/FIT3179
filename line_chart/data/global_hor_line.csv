@@ -1,325 +1,325 @@
-﻿STATE,MONTH,VALUE
-Acre,JAN,4589.681818
-Acre,FEB,4701.954545
-Acre,MAR,4240.181818
-Acre,APR,4449.045455
-Acre,MAY,4052.681818
-Acre,JUN,4108.045455
-Acre,JUL,4319.090909
-Acre,AUG,4949.954545
-Acre,SEP,5106.954545
-Acre,OCT,5079.454545
-Acre,NOV,4975
-Acre,DEC,4651.045455
-Alagoas,JAN,6031.637255
-Alagoas,FEB,5902.833333
-Alagoas,MAR,5896.196078
-Alagoas,APR,5143.382353
-Alagoas,MAY,4311.470588
-Alagoas,JUN,3960.960784
-Alagoas,JUL,4067.911765
-Alagoas,AUG,4690.127451
-Alagoas,SEP,5493.735294
-Alagoas,OCT,5826.509804
-Alagoas,NOV,6321.323529
-Alagoas,DEC,6273.313725
-Amapá,JAN,4293.3125
-Amapá,FEB,4100.9375
-Amapá,MAR,4089.625
-Amapá,APR,4160.375
-Amapá,MAY,4481.9375
-Amapá,JUN,4722.0625
-Amapá,JUL,4914.8125
-Amapá,AUG,5278.125
-Amapá,SEP,5441
-Amapá,OCT,5328.8125
-Amapá,NOV,5125.6875
-Amapá,DEC,4524
-Amazonas,JAN,4215.096774
-Amazonas,FEB,4407.209677
-Amazonas,MAR,4301.322581
-Amazonas,APR,4128.725806
-Amazonas,MAY,3964.951613
-Amazonas,JUN,4321.483871
-Amazonas,JUL,4383.532258
-Amazonas,AUG,4993.387097
-Amazonas,SEP,5059.387097
-Amazonas,OCT,4967.790323
-Amazonas,NOV,4766.225806
-Amazonas,DEC,4405.080645
-Bahia,JAN,6125.517986
-Bahia,FEB,6046.784173
-Bahia,MAR,5709.685851
-Bahia,APR,4876.693046
-Bahia,MAY,4258.63789
-Bahia,JUN,3954.167866
-Bahia,JUL,4172.985612
-Bahia,AUG,4761.035971
-Bahia,SEP,5490.455635
-Bahia,OCT,5675.568345
-Bahia,NOV,5730.095923
-Bahia,DEC,6141.601918
-Ceará,JAN,5467.266304
-Ceará,FEB,5522.277174
-Ceará,MAR,5488.461957
-Ceará,APR,5077.711957
-Ceará,MAY,5096.407609
-Ceará,JUN,5019.820652
-Ceará,JUL,5337.548913
-Ceará,AUG,6041.831522
-Ceará,SEP,6424.538043
-Ceará,OCT,6397.36413
-Ceará,NOV,6318.076087
-Ceará,DEC,5789.065217
-Distrito Federal,JAN,5332
-Distrito Federal,FEB,5644
-Distrito Federal,MAR,5000
-Distrito Federal,APR,4965
-Distrito Federal,MAY,4798
-Distrito Federal,JUN,4719
-Distrito Federal,JUL,5019
-Distrito Federal,AUG,5903
-Distrito Federal,SEP,5712
-Distrito Federal,OCT,5545
-Distrito Federal,NOV,5017
-Distrito Federal,DEC,5362
-Espírito Santo,JAN,6047.179487
-Espírito Santo,FEB,6219.923077
-Espírito Santo,MAR,5198.794872
-Espírito Santo,APR,4503.25641
-Espírito Santo,MAY,3839.910256
-Espírito Santo,JUN,3589.794872
-Espírito Santo,JUL,3675.615385
-Espírito Santo,AUG,4341.769231
-Espírito Santo,SEP,4809.358974
-Espírito Santo,OCT,4971.666667
-Espírito Santo,NOV,4915.141026
-Espírito Santo,DEC,5739.410256
-Goiás,JAN,5542.552846
-Goiás,FEB,5677.638211
-Goiás,MAR,5235.414634
-Goiás,APR,5163.292683
-Goiás,MAY,4838.455285
-Goiás,JUN,4594.463415
-Goiás,JUL,4824.788618
-Goiás,AUG,5657.873984
-Goiás,SEP,5524.658537
-Goiás,OCT,5582.674797
-Goiás,NOV,5366.772358
-Goiás,DEC,5565.504065
-Maranhão,JAN,4760.677419
-Maranhão,FEB,4858.359447
-Maranhão,MAR,4843.271889
-Maranhão,APR,4810.276498
-Maranhão,MAY,4861.976959
-Maranhão,JUN,5081.847926
-Maranhão,JUL,5270.548387
-Maranhão,AUG,5794.774194
-Maranhão,SEP,6036.585253
-Maranhão,OCT,5682.552995
-Maranhão,NOV,5357.193548
-Maranhão,DEC,5055.202765
-Mato Grosso,JAN,5160.843972
-Mato Grosso,FEB,5135.978723
-Mato Grosso,MAR,4950.049645
-Mato Grosso,APR,4860.673759
-Mato Grosso,MAY,4581.985816
-Mato Grosso,JUN,4539.269504
-Mato Grosso,JUL,4734.361702
-Mato Grosso,AUG,5360.276596
-Mato Grosso,SEP,5153.921986
-Mato Grosso,OCT,5246.843972
-Mato Grosso,NOV,5260.666667
-Mato Grosso,DEC,5325.851064
-Mato Grosso do Sul,JAN,5842.379747
-Mato Grosso do Sul,FEB,5754
-Mato Grosso do Sul,MAR,5344.012658
-Mato Grosso do Sul,APR,4700.316456
-Mato Grosso do Sul,MAY,3863.177215
-Mato Grosso do Sul,JUN,3564.873418
-Mato Grosso do Sul,JUL,3729.962025
-Mato Grosso do Sul,AUG,4644.329114
-Mato Grosso do Sul,SEP,4829.506329
-Mato Grosso do Sul,OCT,5425.582278
-Mato Grosso do Sul,NOV,5926.025316
-Mato Grosso do Sul,DEC,6277.860759
-Minas Gerais,JAN,5764.22626
-Minas Gerais,FEB,6007.171161
-Minas Gerais,MAR,5104.354045
-Minas Gerais,APR,4708.05041
-Minas Gerais,MAY,4092.256741
-Minas Gerais,JUN,3870.100821
-Minas Gerais,JUL,4094.941383
-Minas Gerais,AUG,4905.12075
-Minas Gerais,SEP,5200.43728
-Minas Gerais,OCT,5387.742087
-Minas Gerais,NOV,5146.907386
-Minas Gerais,DEC,5705.794842
-Pará,JAN,4495.458333
-Pará,FEB,4466.402778
-Pará,MAR,4447.180556
-Pará,APR,4454.583333
-Pará,MAY,4606.493056
-Pará,JUN,4865.659722
-Pará,JUL,4944.131944
-Pará,AUG,5311.277778
-Pará,SEP,5314.027778
-Pará,OCT,5138.319444
-Pará,NOV,4977.659722
-Pará,DEC,4648.354167
-Paraíba,JAN,5930.107623
-Paraíba,FEB,5956.255605
-Paraíba,MAR,5985.578475
-Paraíba,APR,5543.874439
-Paraíba,MAY,4930.008969
-Paraíba,JUN,4500.748879
-Paraíba,JUL,4705.506726
-Paraíba,AUG,5461.336323
-Paraíba,SEP,6021.44843
-Paraíba,OCT,6226.869955
-Paraíba,NOV,6403.349776
-Paraíba,DEC,6123.103139
-Paraná,JAN,5946.035088
-Paraná,FEB,5673.884712
-Paraná,MAR,5151.160401
-Paraná,APR,4357.513784
-Paraná,MAY,3435.33584
-Paraná,JUN,3064.43609
-Paraná,JUL,3283.626566
-Paraná,AUG,4248.989975
-Paraná,SEP,4427.075188
-Paraná,OCT,5160.932331
-Paraná,NOV,5948.453634
-Paraná,DEC,6260.606516
-Pernambuco,JAN,5925.641304
-Pernambuco,FEB,5861.179348
-Pernambuco,MAR,5877.505435
-Pernambuco,APR,5280.423913
-Pernambuco,MAY,4533.195652
-Pernambuco,JUN,4136.913043
-Pernambuco,JUL,4290.804348
-Pernambuco,AUG,5017.25
-Pernambuco,SEP,5751.494565
-Pernambuco,OCT,5997.684783
-Pernambuco,NOV,6297.994565
-Pernambuco,DEC,6156.831522
-Piauí,JAN,5433.982143
-Piauí,FEB,5416.65625
-Piauí,MAR,5392.620536
-Piauí,APR,5227.46875
-Piauí,MAY,5221.700893
-Piauí,JUN,5258.142857
-Piauí,JUL,5560.790179
-Piauí,AUG,6198.379464
-Piauí,SEP,6559.830357
-Piauí,OCT,6398.540179
-Piauí,NOV,6152.9375
-Piauí,DEC,5788.013393
-Rio de Janeiro,JAN,5917.793478
-Rio de Janeiro,FEB,6168.369565
-Rio de Janeiro,MAR,5023.184783
-Rio de Janeiro,APR,4402.543478
-Rio de Janeiro,MAY,3649.434783
-Rio de Janeiro,JUN,3412.326087
-Rio de Janeiro,JUL,3484.717391
-Rio de Janeiro,AUG,4295.793478
-Rio de Janeiro,SEP,4558.543478
-Rio de Janeiro,OCT,4979.347826
-Rio de Janeiro,NOV,4979.978261
-Rio de Janeiro,DEC,5758.684783
-Rio Grande do Norte,JAN,5940.315476
-Rio Grande do Norte,FEB,5980.184524
-Rio Grande do Norte,MAR,5980.565476
-Rio Grande do Norte,APR,5590.214286
-Rio Grande do Norte,MAY,5129.589286
-Rio Grande do Norte,JUN,4741.511905
-Rio Grande do Norte,JUL,4979.714286
-Rio Grande do Norte,AUG,5690.267857
-Rio Grande do Norte,SEP,6129.654762
-Rio Grande do Norte,OCT,6304.571429
-Rio Grande do Norte,NOV,6404.833333
-Rio Grande do Norte,DEC,6036.535714
-Rio Grande do Sul,JAN,6303.28629
-Rio Grande do Sul,FEB,5820.697581
-Rio Grande do Sul,MAR,4949.358871
-Rio Grande do Sul,APR,3920.052419
-Rio Grande do Sul,MAY,2930.020161
-Rio Grande do Sul,JUN,2440.092742
-Rio Grande do Sul,JUL,2715.447581
-Rio Grande do Sul,AUG,3455.90121
-Rio Grande do Sul,SEP,3792.699597
-Rio Grande do Sul,OCT,4925.695565
-Rio Grande do Sul,NOV,6187.290323
-Rio Grande do Sul,DEC,6601.028226
-Rondônia,JAN,4432.576923
-Rondônia,FEB,4412.846154
-Rondônia,MAR,4442.076923
-Rondônia,APR,4491.557692
-Rondônia,MAY,4074.115385
-Rondônia,JUN,4348.326923
-Rondônia,JUL,4478.942308
-Rondônia,AUG,4910.346154
-Rondônia,SEP,4912.903846
-Rondônia,OCT,5090.173077
-Rondônia,NOV,4922.307692
-Rondônia,DEC,4721.211538
-Roraima,JAN,4627.333333
-Roraima,FEB,4749.266667
-Roraima,MAR,4941.2
-Roraima,APR,4764
-Roraima,MAY,4424.866667
-Roraima,JUN,4614.933333
-Roraima,JUL,4692.8
-Roraima,AUG,5162.6
-Roraima,SEP,5532.066667
-Roraima,OCT,5415.2
-Roraima,NOV,5135.6
-Roraima,DEC,4724.6
-São Paulo,JAN,5653.116279
-São Paulo,FEB,5808.64186
-São Paulo,MAR,5120.271318
-São Paulo,APR,4644.336434
-São Paulo,MAY,3851.92093
-São Paulo,JUN,3577.883721
-São Paulo,JUL,3759.948837
-São Paulo,AUG,4679.07907
-São Paulo,SEP,4760.917829
-São Paulo,OCT,5348.103876
-São Paulo,NOV,5711.311628
-São Paulo,DEC,6077.756589
-Santa Catarina,JAN,5780.569492
-Santa Catarina,FEB,5392.579661
-Santa Catarina,MAR,4745.850847
-Santa Catarina,APR,3850.698305
-Santa Catarina,MAY,3016.779661
-Santa Catarina,JUN,2554.955932
-Santa Catarina,JUL,2782.342373
-Santa Catarina,AUG,3586.00678
-Santa Catarina,SEP,3751.098305
-Santa Catarina,OCT,4542.122034
-Santa Catarina,NOV,5672.857627
-Santa Catarina,DEC,5981.132203
-Sergipe,JAN,6166.76
-Sergipe,FEB,6007.16
-Sergipe,MAR,5890.4
-Sergipe,APR,5048.84
-Sergipe,MAY,4262.026667
-Sergipe,JUN,3986.08
-Sergipe,JUL,4090.133333
-Sergipe,AUG,4645.373333
-Sergipe,SEP,5416.786667
-Sergipe,OCT,5764.093333
-Sergipe,NOV,6230.733333
-Sergipe,DEC,6277.093333
-Tocantins,JAN,5056.294964
-Tocantins,FEB,5096.280576
-Tocantins,MAR,4905.280576
-Tocantins,APR,4940.482014
-Tocantins,MAY,5021.115108
-Tocantins,JUN,5102.381295
-Tocantins,JUL,5307.582734
-Tocantins,AUG,5924.179856
-Tocantins,SEP,5794.043165
-Tocantins,OCT,5337.230216
-Tocantins,NOV,5043.870504
-Tocantins,DEC,5030.460432
+﻿REGION,STATE,MONTH,VALUE
+North,Acre,JAN,4589.681818
+North,Acre,FEB,4701.954545
+North,Acre,MAR,4240.181818
+North,Acre,APR,4449.045455
+North,Acre,MAY,4052.681818
+North,Acre,JUN,4108.045455
+North,Acre,JUL,4319.090909
+North,Acre,AUG,4949.954545
+North,Acre,SEP,5106.954545
+North,Acre,OCT,5079.454545
+North,Acre,NOV,4975
+North,Acre,DEC,4651.045455
+Northeast,Alagoas,JAN,6031.637255
+Northeast,Alagoas,FEB,5902.833333
+Northeast,Alagoas,MAR,5896.196078
+Northeast,Alagoas,APR,5143.382353
+Northeast,Alagoas,MAY,4311.470588
+Northeast,Alagoas,JUN,3960.960784
+Northeast,Alagoas,JUL,4067.911765
+Northeast,Alagoas,AUG,4690.127451
+Northeast,Alagoas,SEP,5493.735294
+Northeast,Alagoas,OCT,5826.509804
+Northeast,Alagoas,NOV,6321.323529
+Northeast,Alagoas,DEC,6273.313725
+North,Amapá,JAN,4293.3125
+North,Amapá,FEB,4100.9375
+North,Amapá,MAR,4089.625
+North,Amapá,APR,4160.375
+North,Amapá,MAY,4481.9375
+North,Amapá,JUN,4722.0625
+North,Amapá,JUL,4914.8125
+North,Amapá,AUG,5278.125
+North,Amapá,SEP,5441
+North,Amapá,OCT,5328.8125
+North,Amapá,NOV,5125.6875
+North,Amapá,DEC,4524
+North,Amazonas,JAN,4215.096774
+North,Amazonas,FEB,4407.209677
+North,Amazonas,MAR,4301.322581
+North,Amazonas,APR,4128.725806
+North,Amazonas,MAY,3964.951613
+North,Amazonas,JUN,4321.483871
+North,Amazonas,JUL,4383.532258
+North,Amazonas,AUG,4993.387097
+North,Amazonas,SEP,5059.387097
+North,Amazonas,OCT,4967.790323
+North,Amazonas,NOV,4766.225806
+North,Amazonas,DEC,4405.080645
+Northeast,Bahia,JAN,6125.517986
+Northeast,Bahia,FEB,6046.784173
+Northeast,Bahia,MAR,5709.685851
+Northeast,Bahia,APR,4876.693046
+Northeast,Bahia,MAY,4258.63789
+Northeast,Bahia,JUN,3954.167866
+Northeast,Bahia,JUL,4172.985612
+Northeast,Bahia,AUG,4761.035971
+Northeast,Bahia,SEP,5490.455635
+Northeast,Bahia,OCT,5675.568345
+Northeast,Bahia,NOV,5730.095923
+Northeast,Bahia,DEC,6141.601918
+Northeast,Ceará,JAN,5467.266304
+Northeast,Ceará,FEB,5522.277174
+Northeast,Ceará,MAR,5488.461957
+Northeast,Ceará,APR,5077.711957
+Northeast,Ceará,MAY,5096.407609
+Northeast,Ceará,JUN,5019.820652
+Northeast,Ceará,JUL,5337.548913
+Northeast,Ceará,AUG,6041.831522
+Northeast,Ceará,SEP,6424.538043
+Northeast,Ceará,OCT,6397.36413
+Northeast,Ceará,NOV,6318.076087
+Northeast,Ceará,DEC,5789.065217
+Mid West,Distrito Federal,JAN,5332
+Mid West,Distrito Federal,FEB,5644
+Mid West,Distrito Federal,MAR,5000
+Mid West,Distrito Federal,APR,4965
+Mid West,Distrito Federal,MAY,4798
+Mid West,Distrito Federal,JUN,4719
+Mid West,Distrito Federal,JUL,5019
+Mid West,Distrito Federal,AUG,5903
+Mid West,Distrito Federal,SEP,5712
+Mid West,Distrito Federal,OCT,5545
+Mid West,Distrito Federal,NOV,5017
+Mid West,Distrito Federal,DEC,5362
+Southeast,Espírito Santo,JAN,6047.179487
+Southeast,Espírito Santo,FEB,6219.923077
+Southeast,Espírito Santo,MAR,5198.794872
+Southeast,Espírito Santo,APR,4503.25641
+Southeast,Espírito Santo,MAY,3839.910256
+Southeast,Espírito Santo,JUN,3589.794872
+Southeast,Espírito Santo,JUL,3675.615385
+Southeast,Espírito Santo,AUG,4341.769231
+Southeast,Espírito Santo,SEP,4809.358974
+Southeast,Espírito Santo,OCT,4971.666667
+Southeast,Espírito Santo,NOV,4915.141026
+Southeast,Espírito Santo,DEC,5739.410256
+Mid West,Goiás,JAN,5542.552846
+Mid West,Goiás,FEB,5677.638211
+Mid West,Goiás,MAR,5235.414634
+Mid West,Goiás,APR,5163.292683
+Mid West,Goiás,MAY,4838.455285
+Mid West,Goiás,JUN,4594.463415
+Mid West,Goiás,JUL,4824.788618
+Mid West,Goiás,AUG,5657.873984
+Mid West,Goiás,SEP,5524.658537
+Mid West,Goiás,OCT,5582.674797
+Mid West,Goiás,NOV,5366.772358
+Mid West,Goiás,DEC,5565.504065
+Northeast,Maranhão,JAN,4760.677419
+Northeast,Maranhão,FEB,4858.359447
+Northeast,Maranhão,MAR,4843.271889
+Northeast,Maranhão,APR,4810.276498
+Northeast,Maranhão,MAY,4861.976959
+Northeast,Maranhão,JUN,5081.847926
+Northeast,Maranhão,JUL,5270.548387
+Northeast,Maranhão,AUG,5794.774194
+Northeast,Maranhão,SEP,6036.585253
+Northeast,Maranhão,OCT,5682.552995
+Northeast,Maranhão,NOV,5357.193548
+Northeast,Maranhão,DEC,5055.202765
+Mid West,Mato Grosso,JAN,5160.843972
+Mid West,Mato Grosso,FEB,5135.978723
+Mid West,Mato Grosso,MAR,4950.049645
+Mid West,Mato Grosso,APR,4860.673759
+Mid West,Mato Grosso,MAY,4581.985816
+Mid West,Mato Grosso,JUN,4539.269504
+Mid West,Mato Grosso,JUL,4734.361702
+Mid West,Mato Grosso,AUG,5360.276596
+Mid West,Mato Grosso,SEP,5153.921986
+Mid West,Mato Grosso,OCT,5246.843972
+Mid West,Mato Grosso,NOV,5260.666667
+Mid West,Mato Grosso,DEC,5325.851064
+Mid West,Mato Grosso do Sul,JAN,5842.379747
+Mid West,Mato Grosso do Sul,FEB,5754
+Mid West,Mato Grosso do Sul,MAR,5344.012658
+Mid West,Mato Grosso do Sul,APR,4700.316456
+Mid West,Mato Grosso do Sul,MAY,3863.177215
+Mid West,Mato Grosso do Sul,JUN,3564.873418
+Mid West,Mato Grosso do Sul,JUL,3729.962025
+Mid West,Mato Grosso do Sul,AUG,4644.329114
+Mid West,Mato Grosso do Sul,SEP,4829.506329
+Mid West,Mato Grosso do Sul,OCT,5425.582278
+Mid West,Mato Grosso do Sul,NOV,5926.025316
+Mid West,Mato Grosso do Sul,DEC,6277.860759
+Southeast,Minas Gerais,JAN,5764.22626
+Southeast,Minas Gerais,FEB,6007.171161
+Southeast,Minas Gerais,MAR,5104.354045
+Southeast,Minas Gerais,APR,4708.05041
+Southeast,Minas Gerais,MAY,4092.256741
+Southeast,Minas Gerais,JUN,3870.100821
+Southeast,Minas Gerais,JUL,4094.941383
+Southeast,Minas Gerais,AUG,4905.12075
+Southeast,Minas Gerais,SEP,5200.43728
+Southeast,Minas Gerais,OCT,5387.742087
+Southeast,Minas Gerais,NOV,5146.907386
+Southeast,Minas Gerais,DEC,5705.794842
+North,Pará,JAN,4495.458333
+North,Pará,FEB,4466.402778
+North,Pará,MAR,4447.180556
+North,Pará,APR,4454.583333
+North,Pará,MAY,4606.493056
+North,Pará,JUN,4865.659722
+North,Pará,JUL,4944.131944
+North,Pará,AUG,5311.277778
+North,Pará,SEP,5314.027778
+North,Pará,OCT,5138.319444
+North,Pará,NOV,4977.659722
+North,Pará,DEC,4648.354167
+Northeast,Paraíba,JAN,5930.107623
+Northeast,Paraíba,FEB,5956.255605
+Northeast,Paraíba,MAR,5985.578475
+Northeast,Paraíba,APR,5543.874439
+Northeast,Paraíba,MAY,4930.008969
+Northeast,Paraíba,JUN,4500.748879
+Northeast,Paraíba,JUL,4705.506726
+Northeast,Paraíba,AUG,5461.336323
+Northeast,Paraíba,SEP,6021.44843
+Northeast,Paraíba,OCT,6226.869955
+Northeast,Paraíba,NOV,6403.349776
+Northeast,Paraíba,DEC,6123.103139
+South,Paraná,JAN,5946.035088
+South,Paraná,FEB,5673.884712
+South,Paraná,MAR,5151.160401
+South,Paraná,APR,4357.513784
+South,Paraná,MAY,3435.33584
+South,Paraná,JUN,3064.43609
+South,Paraná,JUL,3283.626566
+South,Paraná,AUG,4248.989975
+South,Paraná,SEP,4427.075188
+South,Paraná,OCT,5160.932331
+South,Paraná,NOV,5948.453634
+South,Paraná,DEC,6260.606516
+Northeast,Pernambuco,JAN,5925.641304
+Northeast,Pernambuco,FEB,5861.179348
+Northeast,Pernambuco,MAR,5877.505435
+Northeast,Pernambuco,APR,5280.423913
+Northeast,Pernambuco,MAY,4533.195652
+Northeast,Pernambuco,JUN,4136.913043
+Northeast,Pernambuco,JUL,4290.804348
+Northeast,Pernambuco,AUG,5017.25
+Northeast,Pernambuco,SEP,5751.494565
+Northeast,Pernambuco,OCT,5997.684783
+Northeast,Pernambuco,NOV,6297.994565
+Northeast,Pernambuco,DEC,6156.831522
+Northeast,Piauí,JAN,5433.982143
+Northeast,Piauí,FEB,5416.65625
+Northeast,Piauí,MAR,5392.620536
+Northeast,Piauí,APR,5227.46875
+Northeast,Piauí,MAY,5221.700893
+Northeast,Piauí,JUN,5258.142857
+Northeast,Piauí,JUL,5560.790179
+Northeast,Piauí,AUG,6198.379464
+Northeast,Piauí,SEP,6559.830357
+Northeast,Piauí,OCT,6398.540179
+Northeast,Piauí,NOV,6152.9375
+Northeast,Piauí,DEC,5788.013393
+Southeast,Rio de Janeiro,JAN,5917.793478
+Southeast,Rio de Janeiro,FEB,6168.369565
+Southeast,Rio de Janeiro,MAR,5023.184783
+Southeast,Rio de Janeiro,APR,4402.543478
+Southeast,Rio de Janeiro,MAY,3649.434783
+Southeast,Rio de Janeiro,JUN,3412.326087
+Southeast,Rio de Janeiro,JUL,3484.717391
+Southeast,Rio de Janeiro,AUG,4295.793478
+Southeast,Rio de Janeiro,SEP,4558.543478
+Southeast,Rio de Janeiro,OCT,4979.347826
+Southeast,Rio de Janeiro,NOV,4979.978261
+Southeast,Rio de Janeiro,DEC,5758.684783
+Northeast,Rio Grande do Norte,JAN,5940.315476
+Northeast,Rio Grande do Norte,FEB,5980.184524
+Northeast,Rio Grande do Norte,MAR,5980.565476
+Northeast,Rio Grande do Norte,APR,5590.214286
+Northeast,Rio Grande do Norte,MAY,5129.589286
+Northeast,Rio Grande do Norte,JUN,4741.511905
+Northeast,Rio Grande do Norte,JUL,4979.714286
+Northeast,Rio Grande do Norte,AUG,5690.267857
+Northeast,Rio Grande do Norte,SEP,6129.654762
+Northeast,Rio Grande do Norte,OCT,6304.571429
+Northeast,Rio Grande do Norte,NOV,6404.833333
+Northeast,Rio Grande do Norte,DEC,6036.535714
+South,Rio Grande do Sul,JAN,6303.28629
+South,Rio Grande do Sul,FEB,5820.697581
+South,Rio Grande do Sul,MAR,4949.358871
+South,Rio Grande do Sul,APR,3920.052419
+South,Rio Grande do Sul,MAY,2930.020161
+South,Rio Grande do Sul,JUN,2440.092742
+South,Rio Grande do Sul,JUL,2715.447581
+South,Rio Grande do Sul,AUG,3455.90121
+South,Rio Grande do Sul,SEP,3792.699597
+South,Rio Grande do Sul,OCT,4925.695565
+South,Rio Grande do Sul,NOV,6187.290323
+South,Rio Grande do Sul,DEC,6601.028226
+North,Rondônia,JAN,4432.576923
+North,Rondônia,FEB,4412.846154
+North,Rondônia,MAR,4442.076923
+North,Rondônia,APR,4491.557692
+North,Rondônia,MAY,4074.115385
+North,Rondônia,JUN,4348.326923
+North,Rondônia,JUL,4478.942308
+North,Rondônia,AUG,4910.346154
+North,Rondônia,SEP,4912.903846
+North,Rondônia,OCT,5090.173077
+North,Rondônia,NOV,4922.307692
+North,Rondônia,DEC,4721.211538
+North,Roraima,JAN,4627.333333
+North,Roraima,FEB,4749.266667
+North,Roraima,MAR,4941.2
+North,Roraima,APR,4764
+North,Roraima,MAY,4424.866667
+North,Roraima,JUN,4614.933333
+North,Roraima,JUL,4692.8
+North,Roraima,AUG,5162.6
+North,Roraima,SEP,5532.066667
+North,Roraima,OCT,5415.2
+North,Roraima,NOV,5135.6
+North,Roraima,DEC,4724.6
+Southeast,São Paulo,JAN,5653.116279
+Southeast,São Paulo,FEB,5808.64186
+Southeast,São Paulo,MAR,5120.271318
+Southeast,São Paulo,APR,4644.336434
+Southeast,São Paulo,MAY,3851.92093
+Southeast,São Paulo,JUN,3577.883721
+Southeast,São Paulo,JUL,3759.948837
+Southeast,São Paulo,AUG,4679.07907
+Southeast,São Paulo,SEP,4760.917829
+Southeast,São Paulo,OCT,5348.103876
+Southeast,São Paulo,NOV,5711.311628
+Southeast,São Paulo,DEC,6077.756589
+South,Santa Catarina,JAN,5780.569492
+South,Santa Catarina,FEB,5392.579661
+South,Santa Catarina,MAR,4745.850847
+South,Santa Catarina,APR,3850.698305
+South,Santa Catarina,MAY,3016.779661
+South,Santa Catarina,JUN,2554.955932
+South,Santa Catarina,JUL,2782.342373
+South,Santa Catarina,AUG,3586.00678
+South,Santa Catarina,SEP,3751.098305
+South,Santa Catarina,OCT,4542.122034
+South,Santa Catarina,NOV,5672.857627
+South,Santa Catarina,DEC,5981.132203
+Northeast,Sergipe,JAN,6166.76
+Northeast,Sergipe,FEB,6007.16
+Northeast,Sergipe,MAR,5890.4
+Northeast,Sergipe,APR,5048.84
+Northeast,Sergipe,MAY,4262.026667
+Northeast,Sergipe,JUN,3986.08
+Northeast,Sergipe,JUL,4090.133333
+Northeast,Sergipe,AUG,4645.373333
+Northeast,Sergipe,SEP,5416.786667
+Northeast,Sergipe,OCT,5764.093333
+Northeast,Sergipe,NOV,6230.733333
+Northeast,Sergipe,DEC,6277.093333
+North,Tocantins,JAN,5056.294964
+North,Tocantins,FEB,5096.280576
+North,Tocantins,MAR,4905.280576
+North,Tocantins,APR,4940.482014
+North,Tocantins,MAY,5021.115108
+North,Tocantins,JUN,5102.381295
+North,Tocantins,JUL,5307.582734
+North,Tocantins,AUG,5924.179856
+North,Tocantins,SEP,5794.043165
+North,Tocantins,OCT,5337.230216
+North,Tocantins,NOV,5043.870504
+North,Tocantins,DEC,5030.460432
