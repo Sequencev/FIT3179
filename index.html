@@ -62,10 +62,8 @@
     var specVis2 = "./bubble_plot/js/bubble_plot.vi.json";
     var specVis3 = "./line_chart/js/Line_chart.vi.json";
     var specVis4 = "./bar_chart/js/Bar_chart.vi.json";
-
-    vegaEmbed('#vis1', specVis1, {
-      "actions": false
-    }).then(function(result) {
+    
+    vegaEmbed('#vis1', specVis1).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
