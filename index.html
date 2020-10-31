@@ -19,11 +19,11 @@
 
 <body>
 
-  <div class="">
+  <div>
 
     <!-- grid  -->
-    <div class="">
-      <div class="">
+    <div>
+      <div>
         <h1>Brazil Solar Irradiation </h1>
          <p>visualisations in this page contain the annual and monthly averages of the Global Horizontal, Diffuse, Direct Normal, Tilted Plane and PAR irradiation in Wh/m 2.day.</p>
         <p>by Shicheng Zhou </p>
@@ -32,15 +32,15 @@
     <!-- grid end -->
 
     <!-- grid -->
-    <div class="">
-      <div class="">
-        <div class="">
+    <div>
+      <div>
+        <div>
           <h2>Brazil average direct normal per state(Annual)</h2>
           <p>This choropleth map shows the diect normal irradiation which is measured at the surface of the Earth at a given location with a surface element perpendicular to the Sun</p>
           <p>Notes: The Direct normal irradiance (DNI) is one of the most crucial aspects when assessing and optimizing the technical concept for a CSP plant.</p>
         </div>
       </div>
-      <div class="">
+      <div>
         <h3>Visualisation here</h3>
         <div id="vis1" class="vis-container"></div>
         <div id="vis2" class="vis-container"></div>
@@ -50,8 +50,8 @@
     </div>
     <!-- grid end -->
 
-    <div class="">
-      <div class="">
+    <div>
+      <div>
         <p>This visualisation is created by <a href="https://github.com/Sequencev/FIT3179" target="_blank">Shicheng Zhou</a>. The datasource is
             <a href="https://www.kaggle.com/arvati/brazil-solar-irradiation?select=diffuse_means.csv" target=" _blank"> Kaggle data repository online</a>.</p>
       </div>
@@ -61,24 +61,24 @@
   </div>
 
   <script type="text/javascript">
-    var Vis1 = "choropleth_map/js/Choropleth_map.vi.json";
-    var Vis2 = "bubble_plot/js/bubble_plot.vi.json";
-    var Vis3 = "line_chart/js/Line_chart.vi.json";
-    var Vis4 = "bar_chart/js/Bar_chart.vi.json";
+    var vis1 = "choropleth_map/js/Choropleth_map.vi.json";
+    var vis2 = "bubble_plot/js/bubble_plot.vi.json";
+    var vis3 = "line_chart/js/Line_chart.vi.json";
+    var vis4 = "bar_chart/js/Bar_chart.vi.json";
     
-    vegaEmbed('#vis1', Vis1).then(function(result) {
+    vegaEmbed('#vis1', vis1).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
     
-        vegaEmbed('#vis2', Vis2).then(function(result) {
+        vegaEmbed('#vis2', vis2).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
     
-        vegaEmbed('#vis3', Vis3).then(function(result) {
+        vegaEmbed('#vis3', vis3).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
     
-       vegaEmbed('#vis4', Vis4).then(function(result) {
+       vegaEmbed('#vis4', vis4).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
   </script>
