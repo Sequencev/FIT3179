@@ -1,6 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "description": "Stock prices of 5 Tech Companies over Time.",
+  "title": {
+    "text": "Global horizontal irradiance changes per region", 
+    "font": "Calibri",
+    "fontSize": 20,
+    "align": "center"
+  }, 
   "data": {
     "url": "https://raw.githubusercontent.com/Sequencev/FIT3179/master/line_chart/data/global_region_line.csv"
   },
@@ -20,6 +25,5 @@
       "condition": {"selection": "region_highlight", "value": 0.8},
       "value": 0.2
     }
-  },
-  "config": {}
+  }
 }
