@@ -8,24 +8,34 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
   <!-- Import vega-embed -->
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-4ZPLezkTZTsojWFhpdFembdzFudphhoOzIunR1wH6g1WQDzCAiPvDyitaK67mp0+" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- custom style -->
   <style>
+    .frame {
+      width: 1000;
+      background-color: #e6ffff;
+      margin: auto;
+      padding: 45px;
+      padding-top: 20px;
+
+    }
+
     .vis-container {
-      width: 100%
+      width: 100%;
     }
   </style>
 </head>
 
 <body>
 
-  <div>
+  <div class="frame">
 
     <!-- grid  -->
     <div>
       <div>
         <h1>Brazil Solar Irradiation </h1>
-         <p>visualisations in this page contain the annual and monthly averages of the Global Horizontal, Diffuse, Direct Normal, Tilted Plane and PAR irradiation in Wh/m 2.day.</p>
+        <p>visualisations in this page contain the annual and monthly averages of the Global Horizontal, Diffuse, Direct Normal, Tilted Plane and PAR irradiation in Wh/m 2.day.</p>
         <p>by Shicheng Zhou </p>
       </div>
     </div>
@@ -53,7 +63,7 @@
     <div>
       <div>
         <p>This visualisation is created by <a href="https://github.com/Sequencev/FIT3179" target="_blank">Shicheng Zhou</a>. The datasource is
-            <a href="https://www.kaggle.com/arvati/brazil-solar-irradiation?select=diffuse_means.csv" target=" _blank"> Kaggle data repository online</a>.</p>
+          <a href="https://www.kaggle.com/arvati/brazil-solar-irradiation?select=diffuse_means.csv" target=" _blank"> Kaggle data repository online</a>.</p>
       </div>
     </div>
 
@@ -65,20 +75,20 @@
     var vis2 = "bubble_plot/js/bubble_plot.vi.json";
     var vis3 = "line_chart/js/Line_chart.vi.json";
     var vis4 = "bar_chart/js/Bar_chart.vi.json";
-    
+
     vegaEmbed('#vis1', vis1).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
-    
-        vegaEmbed('#vis2', vis2).then(function(result) {
+
+    vegaEmbed('#vis2', vis2).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
-    
-        vegaEmbed('#vis3', vis3).then(function(result) {
+
+    vegaEmbed('#vis3', vis3).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
-    
-       vegaEmbed('#vis4', vis4).then(function(result) {
+
+    vegaEmbed('#vis4', vis4).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
   </script>
