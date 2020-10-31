@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
@@ -77,7 +76,7 @@
       </div>
       <div class="pure-u-2-3">
         <h3>Visualisation here</h3>
-        <div id="vis1"></div>
+        <div id="vis2"></div>
       </div>
     </div>
     <!-- grid end -->
@@ -91,30 +90,38 @@
 
 
   </div>
+
+  <!-- Script -->
+  <script type="text/javascript">
+    var spec1 = "choropleth_map/js/Choropleth_map.vi.json";
+    var spec2 = "bubble_plot/js/bubble_plot.vi.json";
+    var spec3 = "line_chart/js/Line_chart.vi.json";
+    var spec4 = "bar_chart/js/Bar_chart.vl.json";
+
+    vegaEmbed('#vis1', spec1, {
+      "actions": false
+    }).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#vis2', spec2, {
+      "actions": false
+    }).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#vis3', spec3, {
+      "actions": false
+    }).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#vis4', spec4, {
+      "actions": false
+    }).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  </script>
 </body>
-<script type="text/javascript">
-  var vis1 = "choropleth_map/js/Choropleth_map.vi.json";
-  var vis2 = "bubble_plot/js/bubble_plot.vi.json";
-  var vis3 = "line_chart/js/Line_chart.vi.json";
-  var vis4 = "bar_chart/js/Bar_chart.vi.json";
-
-  vegaEmbed('#vis1', vis1, {
-    "actions": false
-  }).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-
-  vegaEmbed('#vis2', vis2).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-
-  vegaEmbed('#vis3', vis3).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-
-  vegaEmbed('#vis4', vis4).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-</script>
 
 </html>
