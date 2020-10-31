@@ -3,7 +3,7 @@
   "title": {
     "text": "Global horizontal irradiance changes per region", 
     "font": "Calibri",
-    "fontSize": 20,
+    "fontSize": 15,
     "align": "center"
   }, 
   "data": {
