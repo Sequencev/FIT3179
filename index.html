@@ -43,6 +43,9 @@
       <div class="">
         <h3>Visualisation here</h3>
         <div id="vis1" class="vis-container"></div>
+        <div id="vis2" class="vis-container"></div>
+        <div id="vis3" class="vis-container"></div>
+        <div id="vis4" class="vis-container"></div>
       </div>
     </div>
     <!-- grid end -->
@@ -58,12 +61,24 @@
   </div>
 
   <script type="text/javascript">
-    var specVis1 = "./choropleth_map/js/Choropleth_map.vi.json";
-    var specVis2 = "./bubble_plot/js/bubble_plot.vi.json";
-    var specVis3 = "./line_chart/js/Line_chart.vi.json";
-    var specVis4 = "./bar_chart/js/Bar_chart.vi.json";
+    var Vis1 = "choropleth_map/js/Choropleth_map.vi.json";
+    var Vis2 = "bubble_plot/js/bubble_plot.vi.json";
+    var Vis3 = "line_chart/js/Line_chart.vi.json";
+    var Vis4 = "bar_chart/js/Bar_chart.vi.json";
     
-    vegaEmbed('#vis1', specVis1).then(function(result) {
+    vegaEmbed('#vis1', Vis1).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+    
+        vegaEmbed('#vis2', Vis2).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+    
+        vegaEmbed('#vis3', Vis3).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+    
+       vegaEmbed('#vis4', Vis4).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
   </script>
