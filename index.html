@@ -43,7 +43,7 @@
 
     <!-- grid  -->
     <div class="pure-g">
-      <div class="pure-g-1-1">
+      <div class="pure-u-1-1">
         <h1>Brazil Solar Irradiation </h1>
         <p>visualisations in this page contain the annual and monthly averages of the Global Horizontal, Diffuse, Direct Normal, Tilted Plane and PAR irradiation in Wh/m 2.day.</p>
         <p>by Shicheng Zhou </p>
@@ -53,12 +53,28 @@
 
     <!-- grid -->
     <div class="pure-g">
-      <div class="pure-g-1-3">
-        <h2>Brazil average direct normal per state(Annual)</h2>
-        <p>This choropleth map shows the diect normal irradiation which is measured at the surface of the Earth at a given location with a surface element perpendicular to the Sun</p>
+      <div class="pure-u-1-3">
+        <h2>Brazil average direct normal per state(annual)</h2>
+        <p>This choropleth map shows the diect normal irradiation which is measured at the surface of the Earth at a given location with a surface element perpendicular to the Sun in brazil's states</p>
         <p>Notes: The Direct normal irradiance (DNI) is one of the most crucial aspects when assessing and optimizing the technical concept for a CSP plant.</p>
       </div>
-      <div class="pure-g-2-3">
+      <div class="pure-u-2-3">
+        <h3>Visualisation here</h3>
+        <div id="vis1"></div>
+      </div>
+    </div>
+    <!-- grid end -->
+
+    <!-- grid -->
+    <div class="pure-g">
+      <div class="pure-u-1-3">
+        <h2>Brazil PAR and diffuse value (annual)</h2>
+        <p>This bubble plot shows the the PAR(photosynthetically active radiation) and diffuse sky radiation which can affect the growth of plants.
+          Plants require solar radiation for photosynthesis and their growth is directly related to the amount received.As for diffused skylight, owing to its intrinsic nature, can illuminate under-canopy leaves permitting more efficient total
+          whole-plant photosynthesis than would otherwise be the case</p>
+        <p>Notes: Region selection is applied in this chart.</p>
+      </div>
+      <div class="pure-u-2-3">
         <h3>Visualisation here</h3>
         <div id="vis1"></div>
       </div>
@@ -66,7 +82,7 @@
     <!-- grid end -->
 
     <div class="pure-g">
-      <div class="pure-g-1-1">
+      <div class="pure-gu1-1">
         <p>This visualisation is created by <a href="https://github.com/Sequencev/FIT3179" target="_blank">Shicheng Zhou</a>. The datasource is
           <a href="https://www.kaggle.com/arvati/brazil-solar-irradiation?select=diffuse_means.csv" target=" _blank"> Kaggle data repository online</a>.</p>
       </div>
@@ -81,7 +97,9 @@
     var vis3 = "line_chart/js/Line_chart.vi.json";
     var vis4 = "bar_chart/js/Bar_chart.vi.json";
 
-    vegaEmbed('#vis1', vis1).then(function(result) {
+    vegaEmbed('#vis1', vis1, {
+      "actions": false
+    }).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
