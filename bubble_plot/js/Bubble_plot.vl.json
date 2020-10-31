@@ -38,13 +38,13 @@
     "x": {
       "field": "PAR",
       "type": "quantitative",
-      "title": "Par_mean",
+      "title": "Photosynthetically active radiation",
       "scale": {"domain": [1700, 2600]}
     },
     "y": {
       "field": "DIFFUSE",
       "type": "quantitative",
-      "title": "Diffuse_mean",
+      "title": "Diffuse sky radiation",
       "scale": {"domain": [1600, 2500]}
     }
   },
