@@ -1,17 +1,21 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "description": "A simple bar chart with embedded data.",
+  "title": {
+    "text": "Annual Tilt plane in each state", 
+    "font": "Calibri",
+    "fontSize": 15,
+    "align": "center"
+  }, 
   "data": {
     "url": "https://raw.githubusercontent.com/Sequencev/FIT3179/master/bar_chart/data/tilted_plane_avg.csv"
   },
   "mark": "bar",
   "encoding": {
-    "x": {"field": "STATE", "type": "nominal"},
-    "y": {"field": "ANNUAL", "type": "quantitative"},
+    "x": {"field": "ANNUAL", "type": "quantitative"},
+    "y": {"field": "STATE", "type": "nominal", "sort": "-x"},
     "tooltip": [
       {"field": "STATE", "type": "nominal"},
       {"field": "ANNUAL", "type": "quantitative", "format": ".2f"}
     ]
-  },
-  "config": {}
+  }
 }
