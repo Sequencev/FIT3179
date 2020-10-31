@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 
 <head>
@@ -25,6 +25,98 @@
   <a href="bar_chart">4. Bar chart (Tilt Plane)</a>
   <br>
 
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Brazil Solar Irradiation</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+  <!-- Import vega-embed -->
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+  <!-- custom style -->
+  <style>
+    .vis-container {
+      width: 100%
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="">
+
+    <!-- grid  -->
+    <div class="">
+      <div class="">
+        <h1>Brazil Solar Irradiation/h1>
+          <p>visualisations in this page contain the annual and monthly averages of the Global Horizontal, Diffuse, Direct Normal, Tilted Plane and PAR irradiation in Wh/m 2.day.</p>
+          <p>by Shicheng Zhou
+      </div>
+    </div>
+    <!-- grid end -->
+
+    <!-- grid -->
+    <div class="">
+      <div class="">
+        <div class="">
+          <h2>Brazil average direct normal per state(Annual)</h2>
+          <p>This choropleth map shows the diect normal irradiation which is measured at the surface of the Earth at a given location with a surface element perpendicular to the Sun</p>
+          <p>Notes: The Direct normal irradiance (DNI) is one of the most crucial aspects when assessing and optimizing the technical concept for a CSP plant.</p>
+        </div>
+      </div>
+      <div class="">
+        <div id="vis1" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- grid ned -->
+
+    <div class="">
+      <div class="">
+        <p>This visualisation is created by <a href="https://github.com/Sequencev/FIT3179" target="_blank">Shicheng Zhou/a>. The datasource is
+            <a href="https://www.kaggle.com/arvati/brazil-solar-irradiation?select=diffuse_means.csv" target=" _blank">Kaggle data repository online</href>.</p>
+      </div>
+    </div>
+
+
+  </div> <!-- end page -->
+
+  <script type="text/javascript">
+    var specVis1 = "./choropleth_map/js/Choropleth_map.vi.json";
+    var specVis2 = "./bubble_plot/js/bubble_plot.vi.json";
+    var specVis3 = "./line_chart/js/Line_chart.vi.json";
+    var specVis4 = "./bar_chart/js/Bar_chart.vi.json";
+
+    vegaEmbed('#vis1', specVis1, {
+      "actions": false
+    }).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#vis2', specVis2, {
+      "actions": false
+    }).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#vis3', specVis3, {
+      "actions": false
+    }).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#vis4', specVis4, {
+      "actions": false
+    }).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  </script>
 </body>
 
 </html>
