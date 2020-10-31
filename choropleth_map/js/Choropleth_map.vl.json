@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Brazil average direct normal per state (the amount of solar radiation from the direction of the sun)",
+  "title": "Brazil average direct normal per state",
   "width": 450,
   "height": 350,
   "data": {
