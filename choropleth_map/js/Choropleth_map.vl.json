@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "title": "Brazil average direct normal per state (the amount of solar radiation from the direction of the sun)",
-  "width": 800,
-  "height": 600,
+  "width": 450,
+  "height": 350,
   "data": {
     "url": "https://raw.githubusercontent.com/Sequencev/FIT3179/master/choropleth_map/js/gadm36_BRA_1.json",
     "format": {"type": "topojson", "feature": "gadm36_BRA_1"}
