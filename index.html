@@ -14,11 +14,23 @@
   <style>
     .frame {
       width: 1000;
-      background-color: #e6ffff;
+      background-color: white;
       margin: auto;
       padding: 45px;
       padding-top: 20px;
 
+    }
+
+    body {
+      background-color: #e6ffff;
+    }
+
+    h1 h2 {
+      text-align: center;
+    }
+
+    .pure-g-1-1 p {
+      text-align: center;
     }
 
     .vis-container {
@@ -32,8 +44,8 @@
   <div class="frame">
 
     <!-- grid  -->
-    <div>
-      <div>
+    <div class="pure-g">
+      <div class="pure-g-1-1">
         <h1>Brazil Solar Irradiation </h1>
         <p>visualisations in this page contain the annual and monthly averages of the Global Horizontal, Diffuse, Direct Normal, Tilted Plane and PAR irradiation in Wh/m 2.day.</p>
         <p>by Shicheng Zhou </p>
@@ -42,26 +54,21 @@
     <!-- grid end -->
 
     <!-- grid -->
-    <div>
-      <div>
-        <div>
-          <h2>Brazil average direct normal per state(Annual)</h2>
-          <p>This choropleth map shows the diect normal irradiation which is measured at the surface of the Earth at a given location with a surface element perpendicular to the Sun</p>
-          <p>Notes: The Direct normal irradiance (DNI) is one of the most crucial aspects when assessing and optimizing the technical concept for a CSP plant.</p>
-        </div>
+    <div class="pure-g">
+      <div class="pure-g-1-1">
+        <h2>Brazil average direct normal per state(Annual)</h2>
+        <p>This choropleth map shows the diect normal irradiation which is measured at the surface of the Earth at a given location with a surface element perpendicular to the Sun</p>
+        <p>Notes: The Direct normal irradiance (DNI) is one of the most crucial aspects when assessing and optimizing the technical concept for a CSP plant.</p>
       </div>
-      <div>
+      <div class="pure-g-1-2">
         <h3>Visualisation here</h3>
         <div id="vis1" class="vis-container"></div>
-        <div id="vis2" class="vis-container"></div>
-        <div id="vis3" class="vis-container"></div>
-        <div id="vis4" class="vis-container"></div>
       </div>
     </div>
     <!-- grid end -->
 
-    <div>
-      <div>
+    <div class="pure-g">
+      <div class="pure-g-1-1">
         <p>This visualisation is created by <a href="https://github.com/Sequencev/FIT3179" target="_blank">Shicheng Zhou</a>. The datasource is
           <a href="https://www.kaggle.com/arvati/brazil-solar-irradiation?select=diffuse_means.csv" target=" _blank"> Kaggle data repository online</a>.</p>
       </div>
