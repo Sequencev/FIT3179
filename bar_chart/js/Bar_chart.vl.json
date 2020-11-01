@@ -1,13 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 200,
-  "height": 200,
+  "width": 300,
+  "height": 300,
   "title": {
     "text": "Annual Tilt plane in each state", 
     "font": "Calibri",
     "fontSize": 15,
     "align": "center"
-  }, 
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/Sequencev/FIT3179/master/bar_chart/data/tilted_plane_avg.csv"
   },
