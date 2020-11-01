@@ -1,13 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 200, 
-  "height": 200, 
+  "width": 300,
+  "height": 300, 
   "title": {
-    "text": "Global horizontal irradiance changes per region", 
+    "text": "Global horizontal irradiance changes per region",
     "font": "Calibri",
     "fontSize": 15,
     "align": "center"
-  }, 
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/Sequencev/FIT3179/master/line_chart/data/global_region_line.csv"
   },
